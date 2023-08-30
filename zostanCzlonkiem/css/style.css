@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/team3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.flex {
+    display: flex;
+    background-color: black;
+    border: solid black; 
+    justify-content: center;
+    align-items: center;
+}
+
+.flex__item {
+    flex-basis: 15% ;
+    font-size: x-large;
+    width: 25%;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.image__logo {
+    width: 100% ;
+    height: 100%;
+  }
+
+  .label {
+    color: rgb(255, 255, 255)
+
+  }
+
+  .div__form {
+    
+    width: 17%;
+    height: 1000px;
+    display: flex;
+    border: 10px;
+    font-size: larger;
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: black;
+  }
+    
+    
+  
+  .input {
+    display: flex;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 4%;
+  }
+
+  .label__name {
+    margin-left: 4%;
+  }
+
+  .headline {
+    margin-left:4%;
+  }
